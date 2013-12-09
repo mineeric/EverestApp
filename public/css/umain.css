@@ -1,0 +1,94 @@
+/* Imports */
+@import url("reset.css");
+@import url("global-forms.css");
+ 
+/***** Global *****/
+
+body {
+	color: #fff;
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #1B1B1B;
+	background-image: url('../images/bg.png');
+		}
+
+/* Headings */
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}	/* 14px */
+ 
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+ 
+/* Anchors */
+a {outline: 0;}
+a img {
+	border: 0px;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	background-color: #666;
+	color: #FFFFFF;
+	padding: 0 1px;
+	text-decoration: none;
+	border-radius: 5px;
+
+}
+
+a:hover, a:active {
+	background-color: #FFFFFF;
+	color: #000;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #FFF;
+}
+ 
+/*Paragraphs*/ 
+p {margin-bottom: 1.143em;}
+* p:last-child {margin-bottom: 0;}
+ 
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+ 
+::-moz-selection {background: #F6CF74; color: #fff;}
+::selection {background: #F6CF74; color: #fff;}
+ /* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+	
+/*****Calendar***/
+	#calendar {
+	width: 1000px;
+	margin: 0 auto;
+	min-width: 500px;
+	min-height: 500px;
+		}
+
+/******Menu*****/		
+	ul {
+	list-style: outside disc;
+	margin: 1em 0 1.5em 1.5em;
+	
+	}
+	
+	li{
+	display: inline;
+	font-size: 1.875em;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 16px;
+		
+		}
+		
